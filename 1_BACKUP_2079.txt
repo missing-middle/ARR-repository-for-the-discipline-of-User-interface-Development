@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-fix in 3.txt
+fix in 1.txt
 =======
-my fix in 3.txt
+my fix in 1.txt
 >>>>>>> branch_2
