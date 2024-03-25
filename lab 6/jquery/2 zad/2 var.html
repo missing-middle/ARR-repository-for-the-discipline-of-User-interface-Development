@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+
+<script>
+$(document).ready(function () {
+$("p[align|='center']").dblclick(function () {
+$("p").hide(1);
+});
+$("#but1").dblclick(function () {
+$("p").show(1);
+});
+});
+</script>
+
+</head>
+<body>
+<button id="but1">Нажми 2 раза и он вернётся</button>
+<p align="center">Нажми на меня два раза и я исчезну!</p>
+
+</body>
+</html>
